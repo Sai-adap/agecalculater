@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(33, 120, 234);
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 520px;
+    height: auto;
+    margin: 100px;
+    margin-left: 500px;
+    background-color: #eee;
+    border-radius: 5px;
+    align-items: center;
+}
+.base{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.block{
+    width: 100px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+}
+.base h2{
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    background-color: white;
+    font-size: 34px;
+    color: rgb(11, 73, 216);
+}
+.title{
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: rgb(14, 62, 174);
+}
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline:none;
+    min-height: 50px;
+    border: 2px solid rgb(49, 49, 238);
+    padding: 12px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    color: rgb(14, 62, 174);
+    font-size: 16px;
+    
+}
+input[type=text]:focus{
+    background-color: #ffff;
+    border: 2px solid purple;
+    outline: none;
+   
+
+}
+input[type=button]{
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color:rgb(14, 62, 174);
+    color: aliceblue;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+#age{
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    font-weight: normal;
+    word-spacing: 2.7px;
+    color: blue;
+}
